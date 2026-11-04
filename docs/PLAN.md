@@ -4,7 +4,7 @@
 
 **Modules:** Departments & Job Roles, Employee Management, Search & Filtering, Reports, User Permissions, React UI. Every module follows the rules in `CLAUDE.md`.
 
-**Cross-cutting decisions** (proposed defaults; the ones marked with Q are listed in §6):
+**Cross-cutting decisions** (the items marked with Q are decided in §6 "Decisions"):
 
 | Topic | Proposal |
 |---|---|
@@ -31,7 +31,7 @@
   deploy.ps1         runs Setup → Tables → Types → StoredProcedures → Seed via sqlcmd (Q7)
 ```
 
-**Out of scope for v1:** refresh tokens, employee photos and file uploads, email notifications, change-history audit log (Q14), Docker and deployment pipelines.
+**Out of scope for v1:** refresh tokens, employee photos and file uploads, email notifications, change-history audit log (Q14), Docker for deploying the app (local SQL Server in Docker is in scope) and deployment pipelines.
 
 ---
 
